@@ -12,11 +12,8 @@ A full-stack Notes Taking Application where users can register, log in securely 
 - **Database**: MongoDB Atlas
 ---
 
-**DEMO**
-
-
-
-
+**DEMO**  
+[▶️ Watch Demo (autoplay)](https://www.youtube.com/watch?v=ktl9uDhwQ1k&autoplay=1)
 
 ## 📦 Features
 
