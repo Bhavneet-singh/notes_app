@@ -36,7 +36,6 @@ app.use(
 
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
-  res.send("Server is running");
 });
 
 // import routes
