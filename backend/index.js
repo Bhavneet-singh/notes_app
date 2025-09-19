@@ -20,7 +20,18 @@ const app = express();
 // to make input as json
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: ["http://localhost:5173" , "https://notes-app-five-sooty.vercel.app"], credentials: true }))
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://notes-app-five-sooty.vercel.app",
+      "https://notes-app-bhavneet00singh-9154s-projects.vercel.app/",
+      "https://notes-app-git-main-bhavneet00singh-9154s-projects.vercel.app/",
+      "https://notes-59zhkdiw6-bhavneet00singh-9154s-projects.vercel.app/",
+    ],
+    credentials: true,
+  })
+);
 // app.use(cors());
 
 app.listen(3000, () => {
