@@ -25,9 +25,9 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://notes-app-five-sooty.vercel.app",
-      "https://notes-app-bhavneet00singh-9154s-projects.vercel.app/",
-      "https://notes-app-git-main-bhavneet00singh-9154s-projects.vercel.app/",
-      "https://notes-59zhkdiw6-bhavneet00singh-9154s-projects.vercel.app/",
+      "https://notes-app-bhavneet00singh-9154s-projects.vercel.app",
+      "https://notes-app-git-main-bhavneet00singh-9154s-projects.vercel.app",
+      "https://notes-59zhkdiw6-bhavneet00singh-9154s-projects.vercel.app",
     ],
     credentials: true,
   })
